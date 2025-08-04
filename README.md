@@ -18,7 +18,7 @@ A simple and elegant task management web app built with **HTML**, **CSS**, and *
 
 ## 📸 Preview
 
-![Task Manager UI](https://via.placeholder.com/800x400.png?text=Task+Manager+Preview)
+![Task Manager UI]https://codepen.io/karthik-Sai-the-sans/pen/myJvLwv
 
 ---
 
