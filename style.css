@@ -1,0 +1,119 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 2rem;
+  margin-top: 40px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #4a00e0;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-section input[type="text"] {
+  padding: 10px;
+  border: 2px solid #4a00e0;
+  border-radius: 8px;
+}
+
+.duration-inputs {
+  display: flex;
+  gap: 5px;
+}
+
+.duration-inputs input {
+  flex: 1;
+  padding: 8px;
+  border: 2px solid #8e2de2;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4a00e0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #8e2de2;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f8f8f8;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  position: relative;
+}
+
+li.completed {
+  background-color: #e0e0e0;
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-buttons {
+  margin-top: 10px;
+}
+
+.task-buttons button {
+  margin-right: 8px;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.complete-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.progress-container {
+  height: 8px;
+  background: #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(to right, #00c9ff, #92fe9d);
+  transition: width 1s linear;
+}
